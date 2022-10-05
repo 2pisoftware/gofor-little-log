@@ -1,13 +1,13 @@
-module github.com/gofor-little/log
+module github.com/2pisoftware/gofor-little-log
 
 go 1.17
 
 require (
+	github.com/2pisoftware/gofor-little-env v0.0.1-beta
+	github.com/2pisoftware/gofor-little-ts v0.0.1-beta
 	github.com/aws/aws-sdk-go-v2 v1.16.4
 	github.com/aws/aws-sdk-go-v2/config v1.15.9
 	github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs v1.15.7
-	github.com/gofor-little/env v1.0.3
-	github.com/gofor-little/ts v0.2.7
 	github.com/matryer/is v1.4.0
 )
 

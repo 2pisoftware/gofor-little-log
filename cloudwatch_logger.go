@@ -13,7 +13,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs/types"
-	"github.com/gofor-little/ts"
+	ts "github.com/2pisoftware/gofor-little-ts"
 )
 
 // CloudWatchLogger is a structured logger that logs to CloudWatch and is thread safe.

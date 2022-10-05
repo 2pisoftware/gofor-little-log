@@ -6,7 +6,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs/types"
-	"github.com/gofor-little/ts"
+	ts "github.com/2pisoftware/gofor-little-ts"
 )
 
 // These values come from CloudWatch, check cloudwatchlogs.CloudWatchLogs.PutLogEvents()

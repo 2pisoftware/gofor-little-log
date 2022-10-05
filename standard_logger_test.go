@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gofor-little/log"
+	log "github.com/2pisoftware/gofor-little-log"
 )
 
 func TestLog(t *testing.T) {

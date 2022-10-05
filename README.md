@@ -4,8 +4,8 @@
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gofor-little/log)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/gofor-little/log/main/LICENSE)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gofor-little/log/CI)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gofor-little/log)](https://goreportcard.com/report/github.com/gofor-little/log)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/gofor-little/log)](https://pkg.go.dev/github.com/gofor-little/log)
+[![Go Report Card](https://goreportcard.com/badge/github.com/2pisoftware/gofor-little-log)](https://goreportcard.com/report/github.com/2pisoftware/gofor-little-log)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/2pisoftware/gofor-little-log)](https://pkg.go.dev/github.com/2pisoftware/gofor-little-log)
 
 ### Introduction
 * Structured logging
@@ -20,7 +20,7 @@ import (
     "fmt"
 
     "github.com/aws/aws-sdk-go/aws/session"
-    "github.com/gofor-little/log"
+    log "github.com/2pisoftware/gofor-little-log"
 )
 
 func main() {

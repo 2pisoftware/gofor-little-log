@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gofor-little/env"
+	env "github.com/2pisoftware/gofor-little-env"
 	"github.com/matryer/is"
 
-	"github.com/gofor-little/log"
+	log "github.com/2pisoftware/gofor-little-log"
 )
 
 func TestCloudWatchLogger(t *testing.T) {
